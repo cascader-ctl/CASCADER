@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CASCADER: Cascaded Adaptive Source-to-Client Transfer via Dynamic Embedding and Retraining | submitted to ICML 2026</title>
+    <title>Cascaded Transfer: Learning Many Tasks under Budget Constraints | submitted to ICML 2026</title>
     
     <!-- Polices de caractères professionnelles depuis Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,17 +18,22 @@
 
         <header>
             <h1 class="paper-title">[Titre Complet de Votre Papier sur le Transfert Learning en Cascade]</h1>
-            <p class="conference">Soumission à l'International Conference on Machine Learning (ICML) 202X</p>
+            <p class="conference">Submitted to ICML 2026</p>
             
             <div class="authors">
+                <--! 
                 <a href="[Lien vers votre page personnelle]">Votre Nom</a><sup>1</sup>,
                 <a href="[Lien vers la page du co-auteur]">Nom du Co-auteur</a><sup>2</sup>,
-                <a href="[Lien vers la page du co-auteur]">Autre Co-auteur</a><sup>1,2</sup>
+                <a href="[Lien vers la page du co-auteur]">Autre Co-auteur</a><sup>1,2</sup> 
+                -->
+                CASCADER: Cascaded Adaptive Source-to-Client Transfer via Dynamic Embedding and Retraining
             </div>
             
+            <--! 
             <div class="affiliations">
                 <sup>1</sup>[Nom de votre Université/Laboratoire] &nbsp;&nbsp;&nbsp;&nbsp; <sup>2</sup>[Nom de l'autre institution]
             </div>
+            -->
 
             <nav class="links">
                 <a href="[Lien vers votre PDF, ex: ./paper.pdf]" class="button">📄 Papier</a>
