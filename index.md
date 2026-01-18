@@ -104,7 +104,7 @@ Many-Task Learning refers to the setting where a large number of related tasks n
         </main>
 
         <footer>
-            <p>Site web conçu avec ❤️ pour ICML. Template par un assistant IA.</p>
+            <p> footer todo </p>
         </footer>
 
     </div>
