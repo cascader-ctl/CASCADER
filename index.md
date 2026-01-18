@@ -17,11 +17,18 @@
     <div class="container">
 
         <header>
+                    <div class="project-header">
+                <div class="project-title-container">
+                    <span class="project-name">CASCADER</span>
+                    <span class="project-acronym">Cascaded Adaptive Source-to-Client Transfer via Dynamic Embedding and  Retraining</span>
+                </div>
+                <img src="images/logo.svg" alt="CASCADER Logo" class="project-logo">
+            </div>
             <h1 class="paper-title">[Titre Complet de Votre Papier sur le Transfert Learning en Cascade]</h1>
             <p class="conference">Submitted to ICML 2026</p>
             
             <div class="authors">
-                <--! 
+                <!-- 
                 <a href="[Lien vers votre page personnelle]">Votre Nom</a><sup>1</sup>,
                 <a href="[Lien vers la page du co-auteur]">Nom du Co-auteur</a><sup>2</sup>,
                 <a href="[Lien vers la page du co-auteur]">Autre Co-auteur</a><sup>1,2</sup> 
@@ -29,7 +36,7 @@
                 CASCADER: Cascaded Adaptive Source-to-Client Transfer via Dynamic Embedding and Retraining
             </div>
             
-            <--! 
+            <!--
             <div class="affiliations">
                 <sup>1</sup>[Nom de votre Université/Laboratoire] &nbsp;&nbsp;&nbsp;&nbsp; <sup>2</sup>[Nom de l'autre institution]
             </div>
