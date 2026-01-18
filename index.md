@@ -68,9 +68,9 @@ Many-Task Learning refers to the setting where a large number of related tasks n
 
             <!-- Section Méthode -->
             <section id="method">
-                <h2>Notre Méthode</h2>
+                <h2>Our Method</h2>
                 <p>
-                    [Décrivez ici de manière concise votre méthode. Vous pouvez expliquer le concept de "cascade". Par exemple : Notre méthode s'articule autour d'une architecture de transfert en cascade. Contrairement aux approches traditionnelles qui transfèrent les connaissances d'une seule source à une seule cible, notre modèle crée une chaîne d'apprentissage où chaque modèle intermédiaire sert de fondation pour le suivant, spécialisant progressivement les features pour des tâches de plus en plus complexes.]
+                    [TODO]
                 </p>
                 <img src="images/method_diagram.svg" alt="Diagramme de l'architecture de la méthode">
                 <figcaption>
@@ -80,9 +80,9 @@ Many-Task Learning refers to the setting where a large number of related tasks n
 
             <!-- Section Résultats -->
             <section id="results">
-                <h2>Résultats Expérimentaux</h2>
+                <h2>Experimental Results</h2>
                 <p>
-                    [Présentez vos résultats principaux. Par exemple : Nous avons évalué notre approche sur plusieurs benchmarks de vision par ordinateur et de NLP. Nos résultats montrent une amélioration significative par rapport aux méthodes de transfert learning classiques, notamment dans les scénarios à faibles données. Le graphique ci-dessous compare notre performance (en bleu) aux state-of-the-art existants.]
+                    [TODO]
                 </p>
                 <img src="images/results_plot.png" alt="Graphique comparant les résultats">
                 <figcaption>
