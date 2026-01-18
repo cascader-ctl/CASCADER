@@ -1,16 +1,104 @@
----
-layout: home
-title: Home
----
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASCADER: Cascaded Adaptive Source-to-Client Transfer via Dynamic Embedding and Retraining | submitted to ICML 2026</title>
+    
+    <!-- Polices de caractères professionnelles depuis Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Lien vers votre feuille de style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-# Welcome to the CASCADER website
+    <div class="container">
 
-This site hosts the code, paper, and results for **CASCADER: Cascaded Adaptive Source-to-Client Transfer via Dynamic Embedding and Retraining**.
+        <header>
+            <h1 class="paper-title">[Titre Complet de Votre Papier sur le Transfert Learning en Cascade]</h1>
+            <p class="conference">Soumission à l'International Conference on Machine Learning (ICML) 202X</p>
+            
+            <div class="authors">
+                <a href="[Lien vers votre page personnelle]">Votre Nom</a><sup>1</sup>,
+                <a href="[Lien vers la page du co-auteur]">Nom du Co-auteur</a><sup>2</sup>,
+                <a href="[Lien vers la page du co-auteur]">Autre Co-auteur</a><sup>1,2</sup>
+            </div>
+            
+            <div class="affiliations">
+                <sup>1</sup>[Nom de votre Université/Laboratoire] &nbsp;&nbsp;&nbsp;&nbsp; <sup>2</sup>[Nom de l'autre institution]
+            </div>
 
-Coming soon:
+            <nav class="links">
+                <a href="[Lien vers votre PDF, ex: ./paper.pdf]" class="button">📄 Papier</a>
+                <a href="[Lien vers votre dépôt GitHub]" class="button">💻 Code</a>
+                <a href="[Lien vers une vidéo de présentation, si applicable]" class="button">🎥 Vidéo</a>
+                <a href="#citation" class="button">✏️ Citer</a>
+            </nav>
+        </header>
 
-- Abstract
-- Introduction
-- Links to paper PDF
-- Code repository
-- Results and figures
+        <main>
+            <!-- Section "Teaser" : L'image principale qui résume votre idée -->
+            <section class="teaser">
+                <img src="images/teaser.png" alt="Image principale illustrant le concept de transfert learning en cascade">
+                <figcaption>
+                    <b>Figure 1 :</b> [Brève description de l'image principale. Par exemple : Notre approche de transfert learning en cascade, où les connaissances sont transférées séquentiellement à travers une série de tâches pour améliorer la performance finale.]
+                </figcaption>
+            </section>
+
+            <!-- Section Abstract -->
+            <section id="abstract">
+                <h2>Abstract</h2>
+                <p>
+                    [Collez ici l'abstract de votre papier. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.]
+                </p>
+            </section>
+
+            <!-- Section Méthode -->
+            <section id="method">
+                <h2>Notre Méthode</h2>
+                <p>
+                    [Décrivez ici de manière concise votre méthode. Vous pouvez expliquer le concept de "cascade". Par exemple : Notre méthode s'articule autour d'une architecture de transfert en cascade. Contrairement aux approches traditionnelles qui transfèrent les connaissances d'une seule source à une seule cible, notre modèle crée une chaîne d'apprentissage où chaque modèle intermédiaire sert de fondation pour le suivant, spécialisant progressivement les features pour des tâches de plus en plus complexes.]
+                </p>
+                <img src="images/method_diagram.svg" alt="Diagramme de l'architecture de la méthode">
+                <figcaption>
+                    <b>Figure 2 :</b> [Description du diagramme de votre méthode.]
+                </figcaption>
+            </section>
+
+            <!-- Section Résultats -->
+            <section id="results">
+                <h2>Résultats Expérimentaux</h2>
+                <p>
+                    [Présentez vos résultats principaux. Par exemple : Nous avons évalué notre approche sur plusieurs benchmarks de vision par ordinateur et de NLP. Nos résultats montrent une amélioration significative par rapport aux méthodes de transfert learning classiques, notamment dans les scénarios à faibles données. Le graphique ci-dessous compare notre performance (en bleu) aux state-of-the-art existants.]
+                </p>
+                <img src="images/results_plot.png" alt="Graphique comparant les résultats">
+                <figcaption>
+                    <b>Figure 3 :</b> [Description du graphique de résultats.]
+                </figcaption>
+            </section>
+
+            <!-- Section Citation (BibTeX) -->
+            <section id="citation">
+                <h2>Citation</h2>
+                <p>Si vous trouvez notre travail utile pour vos recherches, veuillez considérer de citer notre papier :</p>
+                <pre><code>@inproceedings{
+    [VotreNom][Année][MotClé],
+    author    = {[Votre Nom] and [Nom Co-auteur]},
+    title     = {[Titre Complet de Votre Papier]},
+    booktitle = {International Conference on Machine Learning (ICML)},
+    year      = {202X}
+}</code></pre>
+            </section>
+        </main>
+
+        <footer>
+            <p>Site web conçu avec ❤️ pour ICML. Template par un assistant IA.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
