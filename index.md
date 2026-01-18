@@ -24,7 +24,7 @@
                 </div>
                 <img src="images/logo.png" alt="CASCADER Logo" class="project-logo">
             </div>
-            <h1 class="paper-title">[Titre Complet de Votre Papier sur le Transfert Learning en Cascade]</h1>
+            <h1 class="paper-title">Cascaded Transfer: Learning Many Tasks under Budget Constraints</h1>
             <p class="conference">Submitted to ICML 2026</p>
             
             <div class="authors">
