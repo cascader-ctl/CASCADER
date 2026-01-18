@@ -43,7 +43,7 @@
 
             <nav class="links">
                 <a href="[Lien vers votre PDF, ex: ./paper.pdf]" class="button">📄 Papier</a>
-                <a href="[GitHub](https://github.com/cascader-ctl/CASCADER)" class="button">💻 Code</a>
+                <a href="https://github.com/cascader-ctl/CASCADER" class="button">💻 Code</a>
                 <a href="[Lien vers une vidéo de présentation, si applicable]" class="button">🎥 Vidéo</a>
                 <a href="#citation" class="button">✏️ Citer</a>
             </nav>
