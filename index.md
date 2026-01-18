@@ -62,7 +62,7 @@
             <section id="abstract">
                 <h2>Abstract</h2>
                 <p>
-                    [Collez ici l'abstract de votre papier. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.]
+Many-Task Learning refers to the setting where a large number of related tasks need to be learned, the exact relationships between tasks are not known, and budget constraints are in place. We introduce the Cascaded Transfer Learning (CTL), a novel many-task transfer learning paradigm where information (e.g. model parameters) cascades hierarchically though tasks that are learned by individual models of the same class, while respecting given budget constraints. The cascade hierarchy is incrementally built by finding ordered task triplets (source, intermediate, target), where the intermediate task is chosen to facilitate the source-target transfer. We give the conditions under which a transfer passing through aintermediate task improves over a direct source-target transfer. Based on these insights, we design a cascaded transfer mechanism that is deployed over a tree structure connecting the tasks, and allocates the available training budget along its branches. Experiments on synthetic and real many-task settings show that the resulting method enables more accurate and cost-effective adaptation across large task collections compared to alternative approaches.
                 </p>
             </section>
 
