@@ -52,9 +52,9 @@
 
         <main>
             <section class="teaser">
-                <img src="images/cascade.png" alt="The Cascaded Transfer Learning (CTL) paradigm. (a) A collection of related tasks visualized over a landscape in which proximity represents task relatedness. A seed task (red) is selected among all tasks. (b) Cascaded transfer starting from the seed and refining each task in turn along a tree. Darker red color shades indicate nodes refined earlier in the process.">
+                <img src="images/cascade.svg" alt="Cascade Example">
                 <figcaption>
-                    <b>Figure 1 :</b> [Brève description de l'image principale. Par exemple : Notre approche de transfert learning en cascade, où les connaissances sont transférées séquentiellement à travers une série de tâches pour améliorer la performance finale.]
+                    <b>Figure 1 :</b> The Cascaded Transfer Learning (CTL) paradigm. (a) A collection of related tasks visualized over a landscape in which proximity represents task relatedness. A seed task (red) is selected among all tasks. (b) Cascaded transfer starting from the seed and refining each task in turn along a tree. Darker red color shades indicate nodes refined earlier in the process.
                 </figcaption>
             </section>
 
