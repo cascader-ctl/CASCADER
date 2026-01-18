@@ -22,7 +22,7 @@
                     <span class="project-name">CASCADER</span>
                     <span class="project-acronym">Cascaded Adaptive Source-to-Client Transfer via Dynamic Embedding and  Retraining</span>
                 </div>
-                <img src="images/logo.svg" alt="CASCADER Logo" class="project-logo">
+                <img src="images/logo.png" alt="CASCADER Logo" class="project-logo">
             </div>
             <h1 class="paper-title">[Titre Complet de Votre Papier sur le Transfert Learning en Cascade]</h1>
             <p class="conference">Submitted to ICML 2026</p>
