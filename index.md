@@ -33,7 +33,6 @@
                 <a href="[Lien vers la page du co-auteur]">Nom du Co-auteur</a><sup>2</sup>,
                 <a href="[Lien vers la page du co-auteur]">Autre Co-auteur</a><sup>1,2</sup> 
                 -->
-                CASCADER: Cascaded Adaptive Source-to-Client Transfer via Dynamic Embedding and Retraining
             </div>
             
             <!--
