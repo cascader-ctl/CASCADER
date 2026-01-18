@@ -1,9 +1,0 @@
-title: "CASCADER"
-author:
-  name: "cascader-ctl"
-  github: cascader-ctl
-description: "Cascaded Transfer: Learning Many Tasks under Budget Constraints"
-theme: minimal-mistakes-jekyll
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
