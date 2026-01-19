@@ -17,12 +17,17 @@
     <div class="container">
 
         <header>
-    <div class="project-name-main">CASCADER</div>
-    <p class="project-acronym-explained">
-        <b>CA</b>scaded <b>S</b>ource-to-<b>C</b>lient <b>A</b>daptation via <b>D</b>iffusion of <b>E</b>stimated weights and <b>R</b>etraining
-    </p>
-
-    <!-- LE RESTE DE L'EN-TÊTE RESTE IDENTIQUE -->
+    <div class="project-top-header">
+        <!-- Groupe pour le nom et l'acronyme -->
+        <div class="project-title-group">
+            <div class="project-name-main">CASCADER</div>
+            <p class="project-acronym-explained">
+                <b>Ca</b>scaded <b>S</b>ource-to-<b>C</b>lient <b>A</b>daptation via <b>D</b>ynamic <b>E</b>mbedding and <b>R</b>etraining
+            </p>
+        </div>
+        <!-- Logo -->
+        <img src="images/logo.png" alt="CASCADER Logo" class="project-logo">
+    </div>
     <h1 class="paper-title">Cascaded Transfer: Learning Many Tasks under Budget Constraints</h1>
     <p class="conference">Submitted to ICML 2026</p>
     
