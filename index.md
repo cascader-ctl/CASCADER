@@ -98,7 +98,6 @@ direct transfer training across datasets and budgets
     anonymous_2026_CTL,
     author    = {Anonymous authors},
     title     = {Cascaded Transfer: Learning Many Tasks under Budget Constraints},
-    <!--booktitle = {International Conference on Machine Learning (ICML)},-->
     year      = {2026}
 }</code></pre>
             </section>
