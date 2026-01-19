@@ -69,42 +69,43 @@ Many-Task Learning refers to the setting where a large number of related tasks n
             <section id="method">
                 <h2>Our Method</h2>
                 <p>
-                    [TODO]
+                    We justify CTL over rooted trees, regardless how the tree is constructed. Our analysis shows that (i) tree-structured cascades can improve over independent or pairwise transfer by routing long-range transfers through sequences of shorter ones in terms of task distance, (ii) only mild structural conditions on the tree are required, and (iii) distance-based trees such as MSTs naturally satisfy these conditions when task distances are only imperfectly observed.
                 </p>
-                <img src="images/method_diagram.svg" alt="Diagramme de l'architecture de la méthode">
+                <!-- <img src="images/method_diagram.svg" alt="Diagramme de l'architecture de la méthode">
                 <figcaption>
                     <b>Figure 2 :</b> [Description du diagramme de votre méthode.]
-                </figcaption>
+                </figcaption> -->
             </section>
 
             <!-- Section Résultats -->
             <section id="results">
                 <h2>Experimental Results</h2>
                 <p>
-                    [TODO]
+                    The goal of our experiments is twofold: (i) to demonstrate that CTL effectively exploits task-graph structure to improve performance under a fixed or reduced computational budget, and (ii) to show that these gains are not specific to a particular data modality or learning problem. We therefore evaluate CTL across a diverse set of settings, including synthetic and real-world regression, as well as image-based classification tasks. Across all experiments, learning follows the same paradigm. Each task is associated with a local objective and is optimized independently using gradient-based methods. Task interactions occur exclusively through parameter initialization: each node in the cascade is initialized from its parent in the tree, after which local refinement is performed. The task graph is constructed using training data only, while all reported results are computed on held-out test data, ensuring that task relationships are inferred without access to evaluation samples.
                 </p>
-                <img src="images/results_plot.png" alt="Graphique comparant les résultats">
+                <img src="images/radar.svg" alt="Radar Plot">
                 <figcaption>
-                    <b>Figure 3 :</b> [Description du graphique de résultats.]
+                    <b>Figure 2 :</b> Radar plot of average percentage improvement over
+direct transfer training across datasets and budgets
                 </figcaption>
             </section>
 
             <!-- Section Citation (BibTeX) -->
             <section id="citation">
                 <h2>Citation</h2>
-                <p>Si vous trouvez notre travail utile pour vos recherches, veuillez considérer de citer notre papier :</p>
+                <p> If you found our work useful, please consider citing our paper :</p>
                 <pre><code>@inproceedings{
-    [VotreNom][Année][MotClé],
-    author    = {[Votre Nom] and [Nom Co-auteur]},
-    title     = {[Titre Complet de Votre Papier]},
-    booktitle = {International Conference on Machine Learning (ICML)},
-    year      = {202X}
+    anonymous_2026_CTL,
+    author    = {Anonymous authors},
+    title     = {Cascaded Transfer: Learning Many Tasks under Budget Constraints},
+    <!--booktitle = {International Conference on Machine Learning (ICML)},-->
+    year      = {2026}
 }</code></pre>
             </section>
         </main>
 
         <footer>
-            <p> footer todo </p>
+            <p> Submitted to ICML 2026 </p>
         </footer>
 
     </div>
