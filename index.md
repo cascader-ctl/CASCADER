@@ -1,5 +1,5 @@
 <html lang="fr">
-<!-- <head>
+    <!-- <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cascaded Transfer: Learning Many Tasks under Budget Constraints | submitted to ICML 2026</title>
@@ -7,11 +7,11 @@
     <!-- Polices de caractères professionnelles depuis Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"> 
     
     <!-- Lien vers votre feuille de style CSS -->
     <link rel="stylesheet" href="style.css">
-</head>
+</head> -->
 <body>
 
     <div class="container">
