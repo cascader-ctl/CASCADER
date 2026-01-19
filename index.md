@@ -33,20 +33,20 @@
     
     <div class="authors">
         <!-- 
-        <a href="[Lien vers votre page personnelle]">Votre Nom</a><sup>1</sup>,
-        <a href="[Lien vers la page du co-auteur]">Nom du Co-auteur</a><sup>2</sup>,
-        <a href="[Lien vers la page du co-auteur]">Autre Co-auteur</a><sup>1,2</sup> 
+        <a href="[Link main author]">Name</a><sup>1</sup>,
+        <a href="[Link co-author]">Other Co-author</a><sup>2</sup>,
+        <a href="[Link co-author]">Other Co-author</a><sup>1,2</sup> 
         -->
     </div>
     
     <!--
     <div class="affiliations">
-        <sup>1</sup>[Nom de votre Université/Laboratoire] &nbsp;&nbsp;&nbsp;&nbsp; <sup>2</sup>[Nom de l'autre institution]
+        <sup>1</sup>[University/Lab] &nbsp;&nbsp;&nbsp;&nbsp; <sup>2</sup>[Other institution]
     </div>
     -->
 
     <nav class="links">
-        <a href="https://github.com/cascader-ctl/CASCADER/blob/main/paper.pdf" class="button"> Papier</a>
+        <a href="https://github.com/cascader-ctl/CASCADER/blob/main/paper.pdf" class="button"> Paper</a>
         <a href="https://github.com/cascader-ctl/CASCADER" class="button"> Code</a>
         <!-- <a href="[Lien vers une vidéo de présentation, si applicable]" class="button"> Vidéo</a> -->
         <a href="#citation" class="button">✏️ Cite</a>
