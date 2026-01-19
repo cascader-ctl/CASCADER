@@ -1,5 +1,6 @@
 <html lang="fr">
-    <!-- <head>
+    <!-- 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cascaded Transfer: Learning Many Tasks under Budget Constraints | submitted to ICML 2026</title>
@@ -11,7 +12,8 @@
     
     <!-- Lien vers votre feuille de style CSS -->
     <link rel="stylesheet" href="style.css">
-</head> -->
+</head> 
+-->
 <body>
 
     <div class="container">
