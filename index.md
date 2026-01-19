@@ -42,7 +42,7 @@
             -->
 
             <nav class="links">
-                <a href="[Lien vers votre PDF, ex: ./paper.pdf]" class="button">📄 Papier</a>
+                <a href="https://github.com/cascader-ctl/CASCADER/blob/main/paper.pdf" class="button">📄 Papier</a>
                 <a href="https://github.com/cascader-ctl/CASCADER" class="button">💻 Code</a>
                 <!-- <a href="[Lien vers une vidéo de présentation, si applicable]" class="button">🎥 Vidéo</a> -->
                 <a href="#citation" class="button">✏️ Cite</a>
@@ -61,7 +61,7 @@
             <section id="abstract">
                 <h2>Abstract</h2>
                 <p>
-Many-Task Learning refers to the setting where a large number of related tasks need to be learned, the exact relationships between tasks are not known, and budget constraints are in place. We introduce the Cascaded Transfer Learning (CTL), a novel many-task transfer learning paradigm where information (e.g. model parameters) cascades hierarchically though tasks that are learned by individual models of the same class, while respecting given budget constraints. The cascade hierarchy is incrementally built by finding ordered task triplets (source, intermediate, target), where the intermediate task is chosen to facilitate the source-target transfer. We give the conditions under which a transfer passing through aintermediate task improves over a direct source-target transfer. Based on these insights, we design a cascaded transfer mechanism that is deployed over a tree structure connecting the tasks, and allocates the available training budget along its branches. Experiments on synthetic and real many-task settings show that the resulting method enables more accurate and cost-effective adaptation across large task collections compared to alternative approaches.
+Many-Task Learning refers to the setting where a large number of related tasks need to be learned, the exact relationships between tasks are not known, and budget constraints are in place. We introduce the Cascaded Transfer Learning, a novel many-task transfer learning paradigm where information (e.g. model parameters) cascades hierarchically though tasks that are learned by individual models of the same class, while respecting given budget constraints. The cascade is organized as a rooted tree that specifies the order in which tasks are learned and refined. We design a cascaded transfer mechanism deployed over a minimum spanning tree structure that connects the tasks according to a suitable distance measure, and allocates the available training budget along its branches. Experiments on synthetic and real many-task settings show that the resulting method enables more accurate and cost-effective adaptation across large task collections compared to alternative approaches.
                 </p>
             </section>
 
