@@ -22,7 +22,7 @@
         <div class="project-title-group">
             <div class="project-name-main">CASCADER</div>
             <p class="project-acronym-explained">
-                <b>CA</b>scaded <b>S</b>ource-to-<b>C</b>lient <b>A</b>daptation via <b>D</b>ynamic <b>E</b>mbedding and <b>R</b>etraining
+                <b>CA</b>scaded <b>S</b>ource-to-<b>C</b>lient <b>A</b>daptation via <b>D</b>iffusion of <b>E</b>stimated weights and <b>R</b>etraining
             </p>
         </div>
         <!-- Logo -->
