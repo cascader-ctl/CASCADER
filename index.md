@@ -17,36 +17,35 @@
     <div class="container">
 
         <header>
-                    <div class="project-header">
-                <div class="project-title-container">
-                    <span class="project-name">CASCADER</span>
-                    <span class="project-acronym">Cascaded Adaptive Source-to-Client Transfer via Dynamic Embedding and  Retraining</span>
-                </div>
-                <img src="images/logo.png" alt="CASCADER Logo" class="project-logo">
-            </div>
-            <h1 class="paper-title">Cascaded Transfer: Learning Many Tasks under Budget Constraints</h1>
-            <p class="conference">Submitted to ICML 2026</p>
-            
-            <div class="authors">
-                <!-- 
-                <a href="[Lien vers votre page personnelle]">Votre Nom</a><sup>1</sup>,
-                <a href="[Lien vers la page du co-auteur]">Nom du Co-auteur</a><sup>2</sup>,
-                <a href="[Lien vers la page du co-auteur]">Autre Co-auteur</a><sup>1,2</sup> 
-                -->
-            </div>
-            
-            <!--
-            <div class="affiliations">
-                <sup>1</sup>[Nom de votre Université/Laboratoire] &nbsp;&nbsp;&nbsp;&nbsp; <sup>2</sup>[Nom de l'autre institution]
-            </div>
-            -->
+    <div class="project-name-main">CASCADER</div>
+    <p class="project-acronym-explained">
+        <b>Ca</b>scaded <b>S</b>ource-to-<b>C</b>lient <b>A</b>daptation via <b>D</b>ynamic <b>E</b>mbedding and <b>R</b>etraining
+    </p>
 
-            <nav class="links">
-                <a href="https://github.com/cascader-ctl/CASCADER/blob/main/paper.pdf" class="button">📄 Papier</a>
-                <a href="https://github.com/cascader-ctl/CASCADER" class="button">💻 Code</a>
-                <!-- <a href="[Lien vers une vidéo de présentation, si applicable]" class="button">🎥 Vidéo</a> -->
-                <a href="#citation" class="button">✏️ Cite</a>
-            </nav>
+    <!-- LE RESTE DE L'EN-TÊTE RESTE IDENTIQUE -->
+    <h1 class="paper-title">Cascaded Transfer: Learning Many Tasks under Budget Constraints</h1>
+    <p class="conference">Submitted to ICML 2026</p>
+    
+    <div class="authors">
+        <!-- 
+        <a href="[Lien vers votre page personnelle]">Votre Nom</a><sup>1</sup>,
+        <a href="[Lien vers la page du co-auteur]">Nom du Co-auteur</a><sup>2</sup>,
+        <a href="[Lien vers la page du co-auteur]">Autre Co-auteur</a><sup>1,2</sup> 
+        -->
+    </div>
+    
+    <!--
+    <div class="affiliations">
+        <sup>1</sup>[Nom de votre Université/Laboratoire] &nbsp;&nbsp;&nbsp;&nbsp; <sup>2</sup>[Nom de l'autre institution]
+    </div>
+    -->
+
+    <nav class="links">
+        <a href="https://github.com/cascader-ctl/CASCADER/blob/main/paper.pdf" class="button"> Papier</a>
+        <a href="https://github.com/cascader-ctl/CASCADER" class="button"> Code</a>
+        <!-- <a href="[Lien vers une vidéo de présentation, si applicable]" class="button"> Vidéo</a> -->
+        <a href="#citation" class="button">✏️ Cite</a>
+    </nav>
         </header>
 
         <main>
