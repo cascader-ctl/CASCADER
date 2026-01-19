@@ -1,4 +1,4 @@
-/* --- Variables et Styles Globaux --- */
+/* --- Global Variables --- */
 :root {
     --primary-color: #0056b3; /* Un bleu académique */
     --text-color: #333;
@@ -177,7 +177,7 @@ header {
     margin-bottom: 2rem;
 }
 
-/* --- Liens / Boutons --- */
+/* --- Link / Buttons --- */
 .links {
     display: flex;
     justify-content: center;
@@ -206,7 +206,7 @@ header {
     box-shadow: 0 4px 10px rgba(0, 86, 179, 0.2);
 }
 
-/* --- Sections de Contenu --- */
+/* --- Content sections --- */
 section {
     margin-bottom: 3rem;
 }
