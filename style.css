@@ -72,41 +72,32 @@ header {
     margin-bottom: 3rem;
 }
 
-.project-header {
-    display: flex;
-    justify-content: space-between; /* Pousse les éléments aux extrémités */
-    align-items: center;           /* Centre verticalement */
-    margin-bottom: 2.5rem;         /* Espace avant le titre du papier */
+.project-name-main {
+    font-family: var(--font-sans);
+    font-size: 3rem; /* Plus grand pour être le titre principal */
+    font-weight: 700;
+    color: var(--primary-color); /* La couleur bleue demandée */
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Styles pour l'acronyme détaillé */
+.project-acronym-explained {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    color: #6c757d;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2.5rem; /* Espace avant le titre du papier */
     padding-bottom: 1.5rem;
     border-bottom: 1px solid var(--border-color);
 }
 
-.project-title-container {
-    display: flex;
-    flex-direction: column; /* Met le nom et l'acronyme l'un sous l'autre */
+.project-acronym-explained b {
+    color: #333; /* Rend les lettres en gras un peu plus sombres pour un meilleur contraste */
 }
 
-.project-name {
-    font-family: var(--font-sans);
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--text-color);
-}
 
-.project-acronym {
-    font-family: var(--font-sans);
-    font-size: 0.85rem;
-    color: #6c757d; /* Utilise la même couleur que .conference pour un look cohérent */
-    margin-top: 4px;
-}
-
-.project-logo {
-    height: 60px; /* Ajustez la hauteur de votre logo */
-    width: auto;  /* Garde les proportions */
-    margin: 0;    /* Annule les marges par défaut des images */
-    box-shadow: none; /* Annule l'ombre par défaut des images */
-    border: none; /* Annule la bordure par défaut des images */
-}
 
 .conference {
     font-family: var(--font-sans);
