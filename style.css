@@ -72,6 +72,24 @@ header {
     margin-bottom: 3rem;
 }
 
+.project-top-header {
+    display: flex;
+    justify-content: space-between; /* Pousse les éléments aux extrémités */
+    align-items: center;           /* Centre verticalement */
+    margin-bottom: 2.5rem;         /* Espace avant le titre du papier */
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Style pour le logo */
+.project-logo {
+    height: 60px; /* Ajustez la hauteur de votre logo */
+    width: auto;  /* Garde les proportions */
+    margin: 0;    /* Annule les marges par défaut */
+    box-shadow: none; /* Annule l'ombre générale des images */
+    border: none; /* Annule la bordure générale des images */
+}
+
 .project-header {
     display: flex;
     justify-content: space-between; /* Pousse les éléments aux extrémités */
@@ -114,7 +132,6 @@ header {
     font-size: 3rem; /* Plus grand pour être le titre principal */
     font-weight: 700;
     color: var(--primary-color); /* La couleur bleue demandée */
-    text-align: center;
     margin-bottom: 0.5rem;
 }
 
@@ -123,11 +140,11 @@ header {
     font-family: var(--font-sans);
     font-size: 1rem;
     color: #6c757d;
-    text-align: center;
+    /* text-align: center; */
     margin-top: 0;
-    margin-bottom: 2.5rem; /* Espace avant le titre du papier */
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 0;
+    /* padding-bottom: 1.5rem; */
+    /* border-bottom: 1px solid var(--border-color);  */
 }
 
 .project-acronym-explained b {
