@@ -3,7 +3,8 @@
 
 @import "{{ site.theme }}";
 
-/* Remove the default GitHub Pages header */
-header {
+/* Remove ONLY the project title text */
+.project-name,
+.site-title {
   display: none !important;
 }
