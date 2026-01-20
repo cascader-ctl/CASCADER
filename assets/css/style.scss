@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Remove the default GitHub Pages header */
+header {
+  display: none !important;
+}
