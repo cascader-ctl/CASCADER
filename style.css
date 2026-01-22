@@ -1,209 +1,275 @@
-
-
----
-
-
-# 🎨 style.css
-
-
-```css
-/* =========================
-Global
-========================= */
-
-
+/* --- Global Variables --- */
 :root {
---bg-main: #ffffff;
---bg-soft: #f7f8fa;
---text-main: #1a1a1a;
---text-muted: #555;
---accent: #1f6feb;
---border-soft: #e5e7eb;
+    --primary-color: #0056b3; /* Un bleu académique */
+    --text-color: #333;
+    --bg-color: #ffffff;
+    --light-gray: #f8f9fa;
+    --border-color: #dee2e6;
+    --font-main: 'Lora', serif;
+    --font-sans: 'Inter', sans-serif;
 }
-
 
 html {
-scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
-
 
 body {
-margin: 0;
-padding: 0;
-font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-background-color: var(--bg-main);
-color: var(--text-main);
-line-height: 1.65;
+    font-family: var(--font-main);
+    line-height: 1.7;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
 }
 
-
-/* =========================
-Layout
-========================= */
-
-
-main {
-max-width: 980px;
-margin: 0 auto;
-padding: 3rem 1.5rem 5rem;
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
 }
 
-
-hr {
-border: none;
-border-top: 1px solid var(--border-soft);
-margin: 3rem 0;
+/* --- Typographie --- */
+h1, h2 {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    color: #222;
+    line-height: 1.2;
 }
 
-
-/* =========================
-Hero Section
-========================= */
-
-
-.hero {
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: 2.5rem;
-margin-bottom: 3rem;
+h1.paper-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
 }
-
-
-.hero-left {
-flex: 1;
-}
-
-.hero-right {
-flex-shrink: 0;
-}
-
-
-.project-title {
-font-size: 3.2rem;
-font-weight: 700;
-letter-spacing: -0.02em;
-margin: 0 0 0.5rem 0;
-}
-
-.project-subtitle {
-font-size: 1.05rem;
-color: var(--text-muted);
-max-width: 640px;
-}
-
-
-.logo {
-width: 130px;
-height: auto;
-}
-
-
-/* =========================
-Headings
-========================= */
 
 h2 {
-font-size: 1.9rem;
-margin-top: 3.5rem;
-margin-bottom: 1.2rem;
-letter-spacing: -0.01em;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--light-gray);
+    padding-bottom: 0.5rem;
 }
-
-
-/* =========================
-Text Blocks
-========================= */
-
 
 p {
-margin: 0.8rem 0;
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #003d82;
+    text-decoration: underline;
+}
+
+/* --- Header --- */
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.project-top-header {
+    display: flex;
+    justify-content: space-between; /* Pousse les éléments aux extrémités */
+    align-items: center;           /* Centre verticalement */
+    margin-bottom: 2.5rem;         /* Espace avant le titre du papier */
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Style pour le logo */
+.project-logo {
+    height: 60px; /* Ajustez la hauteur de votre logo */
+    width: auto;  /* Garde les proportions */
+    margin: 0;    /* Annule les marges par défaut */
+    box-shadow: none; /* Annule l'ombre générale des images */
+    border: none; /* Annule la bordure générale des images */
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between; /* Pousse les éléments aux extrémités */
+    align-items: center;           /* Centre verticalement */
+    margin-bottom: 2.5rem;         /* Espace avant le titre du papier */
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.project-title-container {
+    display: flex;
+    flex-direction: column; /* Met le nom et l'acronyme l'un sous l'autre */
+}
+
+.project-name {
+    font-family: var(--font-sans);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.project-acronym {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: #6c757d; /* Utilise la même couleur que .conference pour un look cohérent */
+    margin-top: 4px;
+}
+
+.project-logo {
+    height: 60px; /* Ajustez la hauteur de votre logo */
+    width: auto;  /* Garde les proportions */
+    margin: 0;    /* Annule les marges par défaut des images */
+    box-shadow: none; /* Annule l'ombre par défaut des images */
+    border: none; /* Annule la bordure par défaut des images */
 }
 
 
-/* =========================
-Figures
-========================= */
-.figure-block {
-margin: 2.5rem auto;
-text-align: center;
+.project-name-main {
+    font-family: var(--font-sans);
+    font-size: 3rem; /* Plus grand pour être le titre principal */
+    font-weight: 700;
+    color: var(--primary-color); /* La couleur bleue demandée */
+    margin-bottom: 0.5rem;
+}
+
+/* Styles pour l'acronyme détaillé */
+.project-acronym-explained {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    color: #6c757d;
+    /* text-align: center; */
+    margin-top: 0;
+    margin-bottom: 0;
+    /* padding-bottom: 1.5rem; */
+    /* border-bottom: 1px solid var(--border-color);  */
+}
+
+.project-acronym-explained b {
+    color: #333; /* Rend les lettres en gras un peu plus sombres pour un meilleur contraste */
 }
 
 
-.figure-block img {
-max-width: 100%;
-border-radius: 10px;
-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+.conference {
+    font-family: var(--font-sans);
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+    text-align: center; /* On ajoute le centrage ici */
 }
 
-
-.figure-caption {
-margin-top: 0.8rem;
-font-size: 0.9rem;
-color: var(--text-muted);
+.authors {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: center; /* On ajoute le centrage ici */
 }
 
-
-.figure-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-gap: 2.5rem;
+.authors a {
+    font-weight: 600;
 }
 
-
-/* =========================
-Lists
-========================= */
-
-
-.contributions {
-margin-top: 1.5rem;
-padding-left: 1.2rem;
+.affiliations {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
 }
 
-
-.contributions li {
-margin-bottom: 0.6rem;
+/* --- Link / Buttons --- */
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
 }
 
+.links .button {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    padding: 0.6rem 1.2rem;
+    border-radius: 50px; /* Pill shape */
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
 
-/* =========================
-Code Blocks
-========================= */
+.links .button:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 86, 179, 0.2);
+}
 
+/* --- Content sections --- */
+section {
+    margin-bottom: 3rem;
+}
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--border-color);
+}
+
+figcaption {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    color: #6c757d;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+/* --- Bloc de Citation (BibTeX) --- */
 pre {
-background: var(--bg-soft);
-padding: 1.2rem 1.4rem;
-border-radius: 10px;
-overflow-x: auto;
-font-size: 0.9rem;
+    background-color: var(--light-gray);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    white-space: pre-wrap; /* Permet le retour à la ligne */
+    word-wrap: break-word;
+    font-size: 0.9rem;
 }
-
 
 code {
-font-family: "JetBrains Mono", "Fira Code", monospace;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    color: #333;
 }
 
+/* --- Footer --- */
+footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.9rem;
+    color: #6c757d;
+}
 
-/* =========================
-Responsive
-========================= */
-
-
+/* --- Responsive Design --- */
 @media (max-width: 768px) {
-.hero {
-flex-direction: column-reverse;
-text-align: center;
-}
-
-
-.project-title {
-font-size: 2.6rem;
-}
-
-
-.logo {
-width: 110px;
-}
+    h1.paper-title {
+        font-size: 2rem;
+    }
+    .container {
+        padding: 1.5rem 1rem;
+    }
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+    .links .button {
+        width: 80%;
+        text-align: center;
+    }
 }
