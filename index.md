@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 <html lang="en">
 
 <head>
