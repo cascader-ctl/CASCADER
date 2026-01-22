@@ -43,8 +43,8 @@ layout: null
         </div>
 
         <nav class="links">
-            <a href="https://github.com/cascader-ctl/CASCADER/blob/main/paper.pdf" class="button">:page_with_curl: Paper</a>
-            <a href="https://github.com/cascader-ctl/CASCADER" class="button"> Code</a>
+            <a href="https://github.com/cascader-ctl/CASCADER/blob/main/paper.pdf" class="button">📃 Paper</a>
+            <a href="https://github.com/cascader-ctl/CASCADER" class="button">💻 Code</a>
             <a href="#citation" class="button">✏️ Cite</a>
         </nav>
 
