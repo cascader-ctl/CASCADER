@@ -1,0 +1,216 @@
+/* ===============================
+   Global variables
+================================ */
+:root {
+    --primary: #0b5ed7;
+    --text-main: #1f2937;
+    --text-muted: #6b7280;
+    --bg-main: #ffffff;
+    --bg-soft: #f8fafc;
+    --border-soft: #e5e7eb;
+
+    --font-serif: 'Lora', serif;
+    --font-sans: 'Inter', sans-serif;
+}
+
+/* ===============================
+   Base
+================================ */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--bg-main);
+    color: var(--text-main);
+    font-family: var(--font-serif);
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 2.5rem 1.75rem 4rem;
+}
+
+/* ===============================
+   Typography
+================================ */
+h1, h2 {
+    font-family: var(--font-sans);
+    color: #111827;
+}
+
+h1.paper-title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1.8rem 0 0.3rem;
+}
+
+h2 {
+    font-size: 1.9rem;
+    margin: 3.5rem 0 1.2rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--border-soft);
+}
+
+p {
+    font-size: 1.05rem;
+    margin-bottom: 1.1rem;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===============================
+   Header
+================================ */
+header {
+    margin-bottom: 3.5rem;
+}
+
+.project-top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid var(--border-soft);
+}
+
+.project-name-main {
+    font-family: var(--font-sans);
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.35rem;
+}
+
+.project-acronym-explained {
+    font-family: var(--font-sans);
+    font-size: 1.02rem;
+    color: var(--text-muted);
+    max-width: 720px;
+}
+
+.project-acronym-explained b {
+    color: #111827;
+}
+
+.project-logo {
+    height: 68px;
+    width: auto;
+}
+
+.conference {
+    font-family: var(--font-sans);
+    font-size: 1.15rem;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+/* ===============================
+   Links / Buttons
+================================ */
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.links .button {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    padding: 0.55rem 1.4rem;
+    border-radius: 999px;
+    border: 1.8px solid var(--primary);
+    color: var(--primary);
+    transition: all 0.2s ease;
+}
+
+.links .button:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* ===============================
+   Content
+================================ */
+section {
+    margin-bottom: 3rem;
+}
+
+figure {
+    margin: 2.5rem auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+figcaption {
+    font-family: var(--font-sans);
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    margin-top: 0.8rem;
+}
+
+/* ===============================
+   Code blocks
+================================ */
+pre {
+    background: var(--bg-soft);
+    border: 1px solid var(--border-soft);
+    border-radius: 8px;
+    padding: 1.4rem;
+    overflow-x: auto;
+    font-size: 0.92rem;
+}
+
+code {
+    font-family: SFMono-Regular, Consolas, Menlo, monospace;
+}
+
+/* ===============================
+   Footer
+================================ */
+footer {
+    margin-top: 4.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-soft);
+    text-align: center;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+/* ===============================
+   Responsive
+================================ */
+@media (max-width: 900px) {
+    .project-top-header {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .project-name-main {
+        font-size: 2.7rem;
+    }
+
+    .project-logo {
+        height: 60px;
+    }
+}
